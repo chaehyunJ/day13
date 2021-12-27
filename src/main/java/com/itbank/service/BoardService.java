@@ -16,4 +16,8 @@ public class BoardService {
 	public List<HashMap<String, Object>> getBoardData(int offset) {
 		return dao.selectBoardData(offset);
 	}
+
+	public int writeBoard(HashMap<String, String> map) {
+		return dao.insertBoardData(map);
+	}
 }

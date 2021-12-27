@@ -6,6 +6,7 @@
 
 <ul>
 	<li><a href="${ cpath }/ex01">ex01 - 게시판 스크롤 로딩</a></li>
+	<li><a href="${ cpath }/ex02">ex02 - ajax POST</a></li>
 </ul>
 </body>
 </html>
